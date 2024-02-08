@@ -1,0 +1,10 @@
+# 忽略build文件夹
+build/
+
+# 忽略node_modules文件夹
+node_modules/
+
+
+# 从本地仓库中删除这些文件夹：
+# git rm -r --cached build
+# git rm -r --cached node_modules

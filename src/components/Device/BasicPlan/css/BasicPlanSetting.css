@@ -1,0 +1,28 @@
+@charset "UTF-8";
+.top {
+    padding: 0px 10px;
+    font-size: 12px;
+}
+.top p{
+    font-size: 12px;
+    color: #16123f;
+}
+.PlanSetting {
+    padding: 5px;
+    width: 100%;
+}  
+.PlanSetting button.selected {
+    background: linear-gradient(to bottom right, #709cce, #b9d1ed);
+    color: #16123f;
+}
+.PlanSetting button:hover {
+    background: linear-gradient(to bottom right, #709cce, #b9d1ed);
+    color: #16123f;
+}
+.PlanSetting button{
+    border: 2px groove #709cce;
+    color: #16123f;
+    padding: 5px 10px;
+    margin: 3px;
+}
+

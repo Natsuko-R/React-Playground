@@ -1,0 +1,9 @@
+# 提供指令给网络爬虫（web crawlers）或搜索引擎的蜘蛛（spiders），告诉它们哪些页面可以抓取，哪些页面不应该抓取
+# https://www.robotstxt.org/robotstxt.html
+# 
+# Disallow: /private/：
+# 这一规则告诉搜索引擎蜘蛛不要抓取网站中以 "/private/" 结尾的路径
+
+Disallow: /private/
+User-agent: *
+Disallow:

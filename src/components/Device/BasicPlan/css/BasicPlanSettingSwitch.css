@@ -1,0 +1,45 @@
+@charset "UTF-8";
+* {
+    box-sizing: border-box;
+}
+.title {
+    border: 2px groove #FAF1CF;
+    color: black;
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.Switchsetting {
+    padding: 10px 5px;
+    border: 2px groove #FAF1CF;
+    font-size: 13px;
+}
+.btnConfirm {
+    border: 2px groove #FAF1CF;
+    border-radius: 5px;
+    background: linear-gradient(to bottom right, #709cce, #b9d1ed);
+    color: #16123f;
+    padding: 10px 15px;
+    font-size: 12px;
+    margin: 10px 2px 5px 5px;
+}
+.btnConfirm:hover {
+    border: 2px groove  #818297;
+    color: #16123f;
+}
+.btnEdit {
+    border: 2px groove #FAF1CF;
+    border-radius: 5px;
+    background: linear-gradient(to bottom right, #709cce, #b9d1ed);
+    color: #16123f;
+    padding: 10px 15px;
+    font-size: 12px;
+    margin: 10px 5px 5px 2px;
+}
+.btnEdit:hover {
+    border: 2px groove  #818297;
+    color: #16123f;
+}
+.Settingdisplay {
+    padding: 3px;
+}
