@@ -74,7 +74,7 @@ export const AgGrid = () => {
     sortable: true,
     filter: true,
     // cellRenderer: PushComp
-  }))
+  }), [])
 
   const handleCellClicked = useCallback((e) => {
     console.log("cellClicked", e);
